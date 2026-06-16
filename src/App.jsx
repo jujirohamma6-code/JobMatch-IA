@@ -1,4 +1,3 @@
-/* src/App.jsx - Main application component entry point */
 import React from 'react';
 import RootApp from './RootApp'; // RootApp handles routing and context providers
 
