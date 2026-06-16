@@ -1,12 +1,12 @@
+/* src/App.jsx - Main application component entry point */
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import RootApp from './RootApp'; // RootApp handles routing and context providers
 
-const App = () => {
+function App() {
+  // App.jsx is now minimal, acting as a simple wrapper that renders RootApp
   return (
-    <div>
-      <h1>Welcome to JobMatch IA!</h1>
-    </div>
+    <RootApp /> 
   );
-};
+}
 
 export default App;
