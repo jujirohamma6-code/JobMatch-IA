@@ -3,13 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* You can add custom base styles here if needed */
+/* Base styles */
 body {
-  font-family: 'Inter', sans-serif; /* Example: Using Inter font */
+  font-family: 'Inter', sans-serif; 
   @apply bg-gray-50 text-gray-900;
 }
 
-/* Base styles for input fields and radio buttons */
+/* Utility classes for form elements */
 .input-field {
   @apply appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm transition duration-150 ease-in-out;
 }
@@ -17,6 +17,3 @@ body {
 .radio-input {
   @apply h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded;
 }
-
-/* Add any other global styles or component-specific base styles */
- meydana;
